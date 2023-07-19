@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Calculator from './components/Calculator';
-import Quote from './components/QuoteApi';
-import './Calculator.css';
+import { BrowserRouter } from 'react-router-dom';
+import './components/Calculator.css';
+import App from './App';
 
 ReactDOM.render(
-  <div>
-    <Calculator />
-    <Quote />
-  </div>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('root'),
 );

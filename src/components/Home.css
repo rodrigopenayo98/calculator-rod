@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(213, 209, 209, 0.284);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  height: 72.5vh;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  font-size: 35px;
+  padding-bottom: 15px;
+  color: rgb(13, 128, 113);
+}
+
+p {
+  font-family: Roboto, sans-serif;
+}

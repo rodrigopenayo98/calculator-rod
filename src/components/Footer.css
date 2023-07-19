@@ -1,0 +1,13 @@
+.footer {
+  height: 70px;
+  background: rgb(21, 223, 197);
+  background:
+    linear-gradient(
+      11deg,
+      rgba(21, 223, 197, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(18, 132, 156, 1) 96%
+    );
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
