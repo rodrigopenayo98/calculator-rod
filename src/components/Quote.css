@@ -1,0 +1,43 @@
+.main-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 79.5vh;
+}
+
+.quote-container {
+  font-family: Roboto, sans-serif;
+  width: 480px;
+  text-align: center;
+  background: rgba(21, 223, 196, 0.358);
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-quote {
+  font-size: 20px;
+  color: azure;
+}
+
+.text-quote {
+  color: black;
+}
+
+.wait-content {
+  height: 79.5vh;
+  color: rgb(10, 108, 95);
+  font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
